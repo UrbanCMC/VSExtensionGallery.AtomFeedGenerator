@@ -2,11 +2,11 @@
 
 namespace ExtensionGallery.AtomFeedGenerator.Model
 {
-	internal class Title
+	public class Title
 	{
 		[XmlAttribute("type")]
-		internal string Type;
+		public string Type;
 		[XmlText]
-		internal string Text;
+		public string Text;
 	}
 }

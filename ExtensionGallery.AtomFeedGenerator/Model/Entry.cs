@@ -2,21 +2,21 @@
 
 namespace ExtensionGallery.AtomFeedGenerator.Model
 {
-	internal class Entry
+	public class Entry
 	{
 		[XmlElement("id")]
-		internal string Id;
+		public string Id;
 		[XmlElement("title")]
-		internal Title Title;
+		public Title Title;
 		[XmlElement("summary")]
-		internal Summary Summary;
+		public Summary Summary;
 		[XmlElement("author")]
-		internal Author Author;
+		public Author Author;
 		[XmlElement("category")]
-		internal Category Category;
+		public Category Category;
 		[XmlElement("content")]
-		internal Content Content;
+		public Content Content;
 		[XmlElement("Vsix")]
-		internal Vsix Vsix;
+		public Vsix Vsix;
 	}
 }

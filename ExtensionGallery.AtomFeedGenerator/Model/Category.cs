@@ -2,9 +2,9 @@
 
 namespace ExtensionGallery.AtomFeedGenerator.Model
 {
-	internal class Category
+	public class Category
 	{
 		[XmlAttribute("term")]
-		internal string Term;
+		public string Term;
 	}
 }

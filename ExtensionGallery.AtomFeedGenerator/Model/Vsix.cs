@@ -2,11 +2,11 @@
 
 namespace ExtensionGallery.AtomFeedGenerator.Model
 {
-	internal class Vsix
+	public class Vsix
 	{
 		[XmlElement("Id")]
-		internal string Id;
+		public string Id;
 		[XmlElement("Version")]
-		internal string Version;
+		public string Version;
 	}
 }

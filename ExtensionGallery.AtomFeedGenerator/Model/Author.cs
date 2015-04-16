@@ -2,9 +2,9 @@
 
 namespace ExtensionGallery.AtomFeedGenerator.Model
 {
-	internal class Author
+	public class Author
 	{
 		[XmlElement("name")]
-		internal string Name;
+		public string Name;
 	}
 }
