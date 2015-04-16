@@ -53,5 +53,5 @@ If any other folder hirarchy is used, the program will not correctly find
 your extensions and write them to the atom.xml.
 
 ## License
-All Code released under [the MIT license](https://github.com/urbancmc/extensiongallery.atomfeedgenerator/blob/master/LICENSE).
+All Code released under [the MIT license](https://github.com/urbancmc/vsextensiongallery.atomfeedgenerator/blob/master/LICENSE).
 For third-party libraries see their respective license.
