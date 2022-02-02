@@ -1,3 +1,5 @@
+**This repository has been archived. If you are looking for an alternative, have a look at [VSGallery.AtomGenerator](https://github.com/garrettpauls/VSGallery.AtomGenerator).**
+
 # ExtensionGallery.AtomFeedGenerator
 
 ## Description
@@ -9,7 +11,7 @@ This program was created because I didn't want to bother with modifying an atom.
 
 You need:
 
-	• Microsoft .NET Framework v4.0 or higher
+	â€¢ Microsoft .NET Framework v4.0 or higher
 	
 All other dependencies can be found in the packages.config and should be downloaded automatically by Visual Studio.  
 This requires a working internet connection and [NuGet](http://docs.nuget.org/docs/start-here/installing-nuget) to be installed.
@@ -23,8 +25,8 @@ There are 2 ways this program can be used.
 ### Parameters
 The only parameters that are supported by this program are:
 
-	• A path, which specifies where the root of the extension gallery is supposed to be.
-	• [/?], [--help], [--h], which will display usage information for this application.
+	â€¢ A path, which specifies where the root of the extension gallery is supposed to be.
+	â€¢ [/?], [--help], [--h], which will display usage information for this application.
 	
 This could look like this:
 ExtensionGallery.AtomFeedGenerator.exe "C:\MyExtensionGallery\".
